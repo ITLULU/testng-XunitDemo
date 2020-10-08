@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+    <line>
+      <![CDATA[�û���½�ɹ�]]>
+    </line>
+    <line>
+      <![CDATA[�û���½�ɹ�]]>
+    </line>
+    <line>
+      <![CDATA[�û���½�ɹ�]]>
+    </line>
+    <line>
+      <![CDATA[�û���½�ɹ�]]>
+    </line>
+    <line>
+      <![CDATA[�û���½�ɹ�]]>
+    </line>
+    <line>
+      <![CDATA[�û���½�ɹ�]]>
+    </line>
+    <line>
+      <![CDATA[�û���¼�ɹ���������ƷWEIJIN]]>
+    </line>
+    <line>
+      <![CDATA[�û���¼�ɹ���������ƷMAOZI]]>
+    </line>
+    <line>
+      <![CDATA[�û���¼�ɹ���������ƷSHOUTAO]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+    <groups>
+    </groups>
+    <test name="testng.xml" duration-ms="65" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+      <class name="TestXunit.LoginTest">
+        <test-method status="PASS" signature="testUserLogin1()[pri:0, instance:TestXunit.LoginTest@61ca2dfa]" name="testUserLogin1" duration-ms="12" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin1 -->
+        <test-method status="PASS" signature="testUserLogin2()[pri:0, instance:TestXunit.LoginTest@61ca2dfa]" name="testUserLogin2" duration-ms="0" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin2 -->
+        <test-method status="PASS" signature="testUserLogin3()[pri:0, instance:TestXunit.LoginTest@61ca2dfa]" name="testUserLogin3" duration-ms="0" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin3 -->
+        <test-method status="PASS" signature="testUserLogin4()[pri:0, instance:TestXunit.LoginTest@61ca2dfa]" name="testUserLogin4" duration-ms="1" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin4 -->
+      </class> <!-- TestXunit.LoginTest -->
+    </test> <!-- testng.xml -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="23" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+    <groups>
+    </groups>
+    <test name="DataProvider" duration-ms="23" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+      <class name="LoginData.ShoppingDataProvideTest">
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:LoginData.ShoppingDataProvideTest@74294adb]" name="testGetPrice" duration-ms="1" started-at="2020-10-08T13:06:13Z" data-provider="getProPrice" depends-on-methods="LoginData.LoginDataProvideTest.testLogin" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[�û���¼�ɹ���������ƷWEIJIN]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:LoginData.ShoppingDataProvideTest@74294adb]" name="testGetPrice" duration-ms="1" started-at="2020-10-08T13:06:13Z" data-provider="getProPrice" depends-on-methods="LoginData.LoginDataProvideTest.testLogin" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[�û���¼�ɹ���������ƷMAOZI]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:LoginData.ShoppingDataProvideTest@74294adb]" name="testGetPrice" duration-ms="0" started-at="2020-10-08T13:06:13Z" data-provider="getProPrice" depends-on-methods="LoginData.LoginDataProvideTest.testLogin" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[�û���¼�ɹ���������ƷSHOUTAO]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+      </class> <!-- LoginData.ShoppingDataProvideTest -->
+      <class name="LoginData.LoginDataProvideTest">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@58a90037]" name="testLogin" duration-ms="3" started-at="2020-10-08T13:06:13Z" data-provider="getUsers" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[�û��������벻��Ϊ��]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[�û���½�ɹ�]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@58a90037]" name="testLogin" duration-ms="1" started-at="2020-10-08T13:06:13Z" data-provider="getUsers" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[�û��������벻��Ϊ��]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[�û���½�ɹ�]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@58a90037]" name="testLogin" duration-ms="0" started-at="2020-10-08T13:06:13Z" data-provider="getUsers" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[�û��������벻��Ϊ��]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[�û���½�ɹ�]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@58a90037]" name="testLogin" duration-ms="0" started-at="2020-10-08T13:06:13Z" data-provider="getUsers" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[��ӭ����Ա��¼]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[�û���½�ɹ�]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@58a90037]" name="testLogin" duration-ms="1" started-at="2020-10-08T13:06:13Z" data-provider="getUsers" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[�û��������벻��Ϊ��]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[�û���½�ɹ�]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@58a90037]" name="testLogin" duration-ms="1" started-at="2020-10-08T13:06:13Z" data-provider="getUsers" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[��ӭ�û�:login��¼]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[�û���½�ɹ�]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- LoginData.LoginDataProvideTest -->
+    </test> <!-- DataProvider -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="14" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+    <groups>
+    </groups>
+    <test name="Parameter" duration-ms="14" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+      <class name="LoginParam.LoginParamsTest">
+        <test-method status="PASS" signature="TestLoginParam(java.lang.String, java.lang.String)[pri:0, instance:LoginParam.LoginParamsTest@140e5a13]" name="TestLoginParam" duration-ms="1" started-at="2020-10-08T13:06:13Z" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginParam -->
+      </class> <!-- LoginParam.LoginParamsTest -->
+      <class name="LoginParam.ShoppingParamsTest">
+        <test-method status="PASS" signature="testGetPrice(int)[pri:0, instance:LoginParam.ShoppingParamsTest@3439f68d]" name="testGetPrice" duration-ms="2" started-at="2020-10-08T13:06:13Z" depends-on-methods="LoginParam.LoginParamsTest.TestLoginParam" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method status="PASS" signature="testGetProduct(int, int)[pri:0, instance:LoginParam.ShoppingParamsTest@3439f68d]" name="testGetProduct" duration-ms="0" started-at="2020-10-08T13:06:13Z" depends-on-methods="LoginParam.LoginParamsTest.TestLoginParam" finished-at="2020-10-08T13:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProduct -->
+      </class> <!-- LoginParam.ShoppingParamsTest -->
+    </test> <!-- Parameter -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5"  verbose="1"  preserve-order="true" name="DataProvider">
+        <classes>
+            <class name="LoginData.LoginDataProvideTest">
+            </class>
+             <class name="LoginData.ShoppingDataProvideTest">
+            </class>
+        </classes> 
+  </test> <!-- testng2.xml -->
+</suite> <!-- Suite -->

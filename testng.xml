@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5"  verbose="1"  preserve-order="true" name="testng.xml">
+    
+    <groups>
+       <dependencies>
+           <group depends-on="" name="group1">
+				<classes>
+					<class name="TestXunit.LoginTest" >
+					    <methods>
+					        <include name="testUserLogin1"></include>
+					         <include name="testUserLogin2"></include>
+					          <include name="testUserLogin3"></include>
+					          <include name="testUserLogin4"></include>
+					     </methods>
+					</class>
+				</classes>
+				
+           </group>
+       </dependencies>
+    </groups>
+  </test> <!-- testng2.xml -->
+</suite> <!-- Suite -->

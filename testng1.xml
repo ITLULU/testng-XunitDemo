@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5"  verbose="1"  preserve-order="true" name="Parameter">
+     <parameter name="username" value="admin"></parameter>
+     <parameter name="pwd" value="123456"></parameter>
+         <parameter name="proId" value="1"></parameter>
+             <parameter name="count" value="1"></parameter>
+        <classes>
+            <class name="LoginParam.LoginParamsTest">
+               <methods>
+                  <include name="TestLoginParam"></include>
+               </methods>
+            </class>
+            <class name="LoginParam.ShoppingParamsTest">
+            </class>
+        </classes> 
+  </test> <!-- testng2.xml -->
+</suite> <!-- Suite -->

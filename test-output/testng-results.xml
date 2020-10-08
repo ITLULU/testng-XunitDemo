@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[用户登陆成功]]>
+    </line>
+    <line>
+      <![CDATA[用户登陆成功]]>
+    </line>
+    <line>
+      <![CDATA[用户登陆成功]]>
+    </line>
+    <line>
+      <![CDATA[用户登陆成功]]>
+    </line>
+    <line>
+      <![CDATA[用户登陆成功]]>
+    </line>
+    <line>
+      <![CDATA[用户登陆成功]]>
+    </line>
+    <line>
+      <![CDATA[用户登录成功，购买物品WEIJIN]]>
+    </line>
+    <line>
+      <![CDATA[用户登录成功，购买物品MAOZI]]>
+    </line>
+    <line>
+      <![CDATA[用户登录成功，购买物品SHOUTAO]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="213" started-at="2020-10-08T21:05:19 CST" finished-at="2020-10-08T21:05:19 CST">
+    <groups>
+    </groups>
+    <test name="DataProvider" duration-ms="213" started-at="2020-10-08T21:05:19 CST" finished-at="2020-10-08T21:05:19 CST">
+      <class name="LoginData.ShoppingDataProvideTest">
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:LoginData.ShoppingDataProvideTest@3dd4520b]" name="testGetPrice" duration-ms="4" started-at="2020-10-08T21:05:19 CST" data-provider="getProPrice" depends-on-methods="LoginData.LoginDataProvideTest.testLogin" finished-at="2020-10-08T21:05:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用户登录成功，购买物品WEIJIN]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:LoginData.ShoppingDataProvideTest@3dd4520b]" name="testGetPrice" duration-ms="3" started-at="2020-10-08T21:05:19 CST" data-provider="getProPrice" depends-on-methods="LoginData.LoginDataProvideTest.testLogin" finished-at="2020-10-08T21:05:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用户登录成功，购买物品MAOZI]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:LoginData.ShoppingDataProvideTest@3dd4520b]" name="testGetPrice" duration-ms="2" started-at="2020-10-08T21:05:19 CST" data-provider="getProPrice" depends-on-methods="LoginData.LoginDataProvideTest.testLogin" finished-at="2020-10-08T21:05:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用户登录成功，购买物品SHOUTAO]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+      </class> <!-- LoginData.ShoppingDataProvideTest -->
+      <class name="LoginData.LoginDataProvideTest">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@23e028a9]" name="testLogin" duration-ms="26" started-at="2020-10-08T21:05:19 CST" data-provider="getUsers" finished-at="2020-10-08T21:05:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用户登陆成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@23e028a9]" name="testLogin" duration-ms="3" started-at="2020-10-08T21:05:19 CST" data-provider="getUsers" finished-at="2020-10-08T21:05:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用户登陆成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@23e028a9]" name="testLogin" duration-ms="2" started-at="2020-10-08T21:05:19 CST" data-provider="getUsers" finished-at="2020-10-08T21:05:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用户登陆成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@23e028a9]" name="testLogin" duration-ms="3" started-at="2020-10-08T21:05:19 CST" data-provider="getUsers" finished-at="2020-10-08T21:05:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[欢迎管理员登录]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用户登陆成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@23e028a9]" name="testLogin" duration-ms="2" started-at="2020-10-08T21:05:19 CST" data-provider="getUsers" finished-at="2020-10-08T21:05:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用户登陆成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginData.LoginDataProvideTest@23e028a9]" name="testLogin" duration-ms="3" started-at="2020-10-08T21:05:19 CST" data-provider="getUsers" finished-at="2020-10-08T21:05:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[欢迎用户:login登录]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用户登陆成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- LoginData.LoginDataProvideTest -->
+    </test> <!-- DataProvider -->
+  </suite> <!-- Suite -->
+</testng-results>
